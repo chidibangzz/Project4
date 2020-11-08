@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href ="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="header">
+<h2 id="viewScores">View Highscores</h2>
+<h2 id="time">Time:</h2>
+</header>
+</div>
+
+<div class="hideDisplay">
+<h1 id="titleQuiz">Nfl Quiz knowlege Quiz</h1>
+
+<p id="paragraph">Try to answer all the questions within a minute</p>
+<br />
+For each incorrect answer, 10 seconds will be deducted from the total time. 
+<button
+id="startButton"
+style="display: block"
+type="button"
+
+>
+    Start Quiz
+</button>
+</p>
+<ul id="choices"></ul>
+</div>
+
+
+
+<div id="results">
+<h3>All Done</h3>
+<h6>Your score is <span id="score"> </span></h6>
+<h6 id="yourInitials">Enter Initials:</h6>
+<form id ="submit">
+<input id="initials" placeholder="Your initals" type="text" />
+<button type="submit">SUBMIT</button>
+</form>
+</div>
+
+<div id="scoresDiv">
+    <h1>TOP SCORES</h1>
+    <ul id="scoreslist"></ul>
+</div>
+
+
+<script src="test.js"></script>
+</body>
+</html>

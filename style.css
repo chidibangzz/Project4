@@ -1,0 +1,18 @@
+#startButton {
+    background-color: orange;
+    display: block;
+    margin: 25px auto 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    display: inline; 
+}
+
+body {
+    background-color: wheat
+}
